@@ -1,35 +1,76 @@
-html, body, div, ul, li, a {
+html, body, div, ul, li, a, h3 {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+body, html {
+    font-size: 62.5%;
+    font-family: Arial, sans-serif;
+}
+
 ul {
     list-style-type: none;
 }
+
 a {
     border: 0;
     text-decoration: none;
-    color: #000000;
 }
 
 img {
-    border:  0;
+    border: 0;
 }
 
 .fold-wrap {
-    width: 100;
-    height:  540px;
-    margin: 100px auto;
+    width: 100%;
+    height: 54rem;
+    margin: 10rem auto;
+    letter-spacing: -0.4rem;
+    font-size: 0;
     overflow: hidden;
 }
 
 .fold-wrap li {
     display: inline-block;
-    width: 25%;
+    width: 24.96%;
     height: 100%;
-    overflow:  hidden;
+    overflow: hidden;
     cursor: pointer;
+    font-size: 0;
+    position: relative;
+}
+
+.mask-b {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.2);
+    transform: translateY(-105%);
+    transition: all 0.4s ease;
+}
+
+.fold-wrap li:hover .mask-b {
+    transform: translateY(0);
+}
+
+.mask-b h3 {
+    font-size: 2.5rem;
+    font-weight: lighter;
+    text-align: center;
+    letter-spacing: normal;
+    color: #fff;
+}
+
+.pic-auto {
+    width: 100%;
+    height: 100%;
+    background: url("bg.jpg") no-repeat;
 }
 
 
