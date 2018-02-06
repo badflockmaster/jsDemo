@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6a5c381f-64f7-4e48-be95-efc0c03d7ada" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/accordion/effect.js" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/accordion/bg.jpg" afterPath="" />
       <change beforePath="$PROJECT_DIR$/accordion/index.html" afterPath="$PROJECT_DIR$/accordion/index.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -24,18 +24,28 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/accordion/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="327">
-              <caret line="34" column="38" lean-forward="false" selection-start-line="34" selection-start-column="38" selection-end-line="34" selection-end-column="38" />
+            <state relative-caret-position="117">
+              <caret line="3" column="26" lean-forward="true" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="base.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="effect.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/accordion/effect.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="171">
+              <caret line="16" column="5" lean-forward="true" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="base.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/accordion/base.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="10" column="19" lean-forward="true" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
+            <state relative-caret-position="-351">
+              <caret line="2" column="1" lean-forward="true" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -46,9 +56,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="HTML File" />
         <option value="CSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -60,9 +70,9 @@
       <list>
         <option value="$PROJECT_DIR$/accordion/hello.html" />
         <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/accordion/effect.js" />
-        <option value="$PROJECT_DIR$/accordion/index.html" />
         <option value="$PROJECT_DIR$/accordion/base.css" />
+        <option value="$PROJECT_DIR$/accordion/index.html" />
+        <option value="$PROJECT_DIR$/accordion/effect.js" />
       </list>
     </option>
   </component>
@@ -73,8 +83,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="214" />
-    <option name="y" value="-10" />
+    <option name="x" value="948" />
+    <option name="y" value="72" />
     <option name="width" value="1400" />
     <option name="height" value="806" />
   </component>
@@ -123,7 +133,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="preferences.sourceCode" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
     <property name="nodejs_interpreter_path" value="S:/Program Files/nodejs/node" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
@@ -165,7 +175,7 @@
       <workItem from="1511325332223" duration="3800000" />
       <workItem from="1511594017736" duration="14910000" />
       <workItem from="1512037145863" duration="175000" />
-      <workItem from="1517894463004" duration="4598000" />
+      <workItem from="1517894463004" duration="21367000" />
     </task>
     <task id="LOCAL-00001" summary="accomplish basic css">
       <created>1511613941822</created>
@@ -181,11 +191,18 @@
       <option name="project" value="LOCAL" />
       <updated>1517899089888</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="complete html and import img">
+      <created>1517899177573</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1517899177573</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23483000" />
+    <option name="totallyTimeSpent" value="40252000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -264,7 +281,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="accomplish basic css" />
     <MESSAGE value=" Complete the basic css file" />
-    <option name="LAST_COMMIT_MESSAGE" value=" Complete the basic css file" />
+    <MESSAGE value="complete html and import img" />
+    <option name="LAST_COMMIT_MESSAGE" value="complete html and import img" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -296,7 +314,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/accordion/effect.js" />
     <entry file="file://$PROJECT_DIR$/accordion/img/89440.jpg">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -322,18 +339,34 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/accordion/index.html">
+    <entry file="file://D:/日常代码/sidebar-transition/js/btn-click.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="327">
-          <caret line="34" column="38" lean-forward="false" selection-start-line="34" selection-start-column="38" selection-end-line="34" selection-end-column="38" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/accordion/base.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="10" column="19" lean-forward="true" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
+        <state relative-caret-position="-351">
+          <caret line="2" column="1" lean-forward="true" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/accordion/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="117">
+          <caret line="3" column="26" lean-forward="true" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/accordion/effect.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="16" column="5" lean-forward="true" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
           <folding />
         </state>
       </provider>
