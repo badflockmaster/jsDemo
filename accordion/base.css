@@ -12,6 +12,7 @@ img {
 }
 ul {
     width: 3000px;
+    height: 375px;
     margin: 0;
     padding-left: 0;
 }
@@ -21,10 +22,16 @@ li {
     list-style-type: none;
     float: left;
 }
+
+li:first-of-type {
+    width: 600px;
+}
 .img-top {
     width: 600px;
 }
 .wrap {
     width: 1400px;
+    height: 375px;
     margin: 100px auto;
+    overflow: hidden;
 }
