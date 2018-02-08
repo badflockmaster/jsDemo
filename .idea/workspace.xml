@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6a5c381f-64f7-4e48-be95-efc0c03d7ada" name="Default" comment="basically finished">
-      <change beforePath="" afterPath="$PROJECT_DIR$/calculate/cal.css" />
+    <list default="true" id="6a5c381f-64f7-4e48-be95-efc0c03d7ada" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/accordion/base.css" afterPath="$PROJECT_DIR$/accordion/base.css" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -200,7 +198,7 @@
       <workItem from="1517894463004" duration="25413000" />
       <workItem from="1518056432628" duration="3430000" />
       <workItem from="1518059955698" duration="1367000" />
-      <workItem from="1518066404210" duration="7709000" />
+      <workItem from="1518066404210" duration="7772000" />
     </task>
     <task id="LOCAL-00001" summary="accomplish basic css">
       <created>1511613941822</created>
@@ -237,11 +235,18 @@
       <option name="project" value="LOCAL" />
       <updated>1517931224366</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="calculate UI is done">
+      <created>1518075023997</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1518075023998</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="56804000" />
+    <option name="totallyTimeSpent" value="56867000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -323,7 +328,8 @@
     <MESSAGE value="complete html and import img" />
     <MESSAGE value="Solve the problem of repeated execution of animation" />
     <MESSAGE value="basically finished" />
-    <option name="LAST_COMMIT_MESSAGE" value="basically finished" />
+    <MESSAGE value="calculate UI is done" />
+    <option name="LAST_COMMIT_MESSAGE" value="calculate UI is done" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />

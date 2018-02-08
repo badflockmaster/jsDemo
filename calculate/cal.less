@@ -1,0 +1,42 @@
+@bg1-color: #fba0ff;
+@bg2-color: #3bf;
+@calBg-color: #fff;
+@cal-width: 400px;
+@cal-height: 700px;
+@shadow: 6px 16px 36px  rgba(0,0,0,0.2), -2px -3px 21px  rgba(0,0,0,0.2);
+
+.center() {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body,html {
+  height: 100%;
+  width: 100%;
+}
+body {
+  margin: 0;
+  background: linear-gradient(to bottom, @bg1-color, @bg2-color);
+  overflow: hidden;
+  .center;
+  &:before {
+    content: "";
+    width: 150%;
+    height: 100%;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background: @calBg-color;
+    transform-origin: 0 0 ;
+    transform: rotateZ(-20deg);
+  }
+}
+
+#wrap {
+  width: @cal-width;
+  height: @cal-height;
+  transform: translateZ(100px);
+  background: @calBg-color;
+  box-shadow: @shadow;
+  border-radius: 10px;
+}
