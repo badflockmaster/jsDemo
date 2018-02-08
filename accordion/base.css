@@ -10,6 +10,7 @@ img {
     width: 100%;
     display: block;
 }
+
 ul {
     width: 3000px;
     height: 375px;
@@ -26,9 +27,11 @@ li {
 li:first-of-type {
     width: 600px;
 }
+
 .img-top {
     width: 600px;
 }
+
 .wrap {
     width: 1400px;
     height: 375px;

@@ -1,0 +1,32 @@
+body,
+html {
+  height: 100%;
+  width: 100%;
+}
+body {
+  margin: 0;
+  background: linear-gradient(to bottom, #fba0ff, #3bf);
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body:before {
+  content: "";
+  width: 150%;
+  height: 100%;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background: #fff;
+  transform-origin: 0 0 ;
+  transform: rotateZ(-20deg);
+}
+#wrap {
+  width: 400px;
+  height: 700px;
+  transform: translateZ(100px);
+  background: #fff;
+  box-shadow: 6px 16px 36px rgba(0, 0, 0, 0.2), -2px -3px 21px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+}
