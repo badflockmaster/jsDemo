@@ -8,7 +8,18 @@ window.onload = function () {
   var percent = document.querySelector("#percent");
   var old_fSize = parseInt(window.getComputedStyle(first).fontSize);
   var new_fSize = parseInt(window.getComputedStyle(first).fontSize);
+  var toggle_pn = document.querySelector("#toggle-pn");
 
+  // plus turn into minus and minus turn into plus
+  toggle_pn.onclick = function() {
+    first.innerText  = first.innerText.replace(/[-+]/g, function(match, pos, originalText) {
+      if(match === "-") {
+        return "+";
+      } else {
+        return "-";
+      }
+    })
+  };
   percent.onclick = keyClick;
   del.onclick = function () {
     first.innerText = first.innerText.substring(0, first.innerText.length - 1);

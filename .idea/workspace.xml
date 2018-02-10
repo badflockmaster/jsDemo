@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6a5c381f-64f7-4e48-be95-efc0c03d7ada" name="Default" comment="basically completed，can't handle the wrong input.">
+    <list default="true" id="6a5c381f-64f7-4e48-be95-efc0c03d7ada" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
       <change beforePath="$PROJECT_DIR$/calculate/calculate.js" afterPath="$PROJECT_DIR$/calculate/calculate.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -23,8 +24,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/calculate/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="156">
-              <caret line="4" column="23" lean-forward="false" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
+            <state relative-caret-position="780">
+              <caret line="19" column="17" lean-forward="false" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="17" />
               <folding />
             </state>
           </provider>
@@ -33,35 +34,8 @@
       <file leaf-file-name="calculate.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/calculate/calculate.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="39">
-              <caret line="1" column="45" lean-forward="false" selection-start-line="1" selection-start-column="45" selection-end-line="1" selection-end-column="45" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="cal.less" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/calculate/cal.less">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2730">
-              <caret line="70" column="14" lean-forward="false" selection-start-line="70" selection-start-column="14" selection-end-line="70" selection-end-column="14" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="calUI.jpg" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/calUI.jpg">
-          <provider selected="true" editor-type-id="images">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="cal.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/calculate/cal.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1248">
-              <caret line="32" column="22" lean-forward="false" selection-start-line="32" selection-start-column="22" selection-end-line="32" selection-end-column="22" />
+            <state relative-caret-position="234">
+              <caret line="12" column="28" lean-forward="false" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="28" />
               <folding />
             </state>
           </provider>
@@ -93,7 +67,6 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/accordion/hello.html" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/accordion/index.html" />
         <option value="$PROJECT_DIR$/accordion/effect.js" />
         <option value="$PROJECT_DIR$/calculate/inex.html" />
@@ -102,6 +75,7 @@
         <option value="$PROJECT_DIR$/calculate/cal.less" />
         <option value="$PROJECT_DIR$/calculate/index.html" />
         <option value="$PROJECT_DIR$/calculate/calculate.js" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -240,7 +214,7 @@
       <workItem from="1518237019315" duration="9145000" />
       <workItem from="1518247722319" duration="462000" />
       <workItem from="1518248230075" duration="14000" />
-      <workItem from="1518248263191" duration="425000" />
+      <workItem from="1518248263191" duration="5911000" />
     </task>
     <task id="LOCAL-00001" summary="accomplish basic css">
       <created>1511613941822</created>
@@ -305,11 +279,18 @@
       <option name="project" value="LOCAL" />
       <updated>1518185686721</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="basically completed，can't handle the wrong input.">
+      <created>1518248695132</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1518248695132</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="92743000" />
+    <option name="totallyTimeSpent" value="98229000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -645,16 +626,6 @@
     <entry file="file://$PROJECT_DIR$/accordion/base.css" />
     <entry file="file://$PROJECT_DIR$/accordion/index.html" />
     <entry file="file://$PROJECT_DIR$/accordion/hello.html" />
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="0">
-            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/accordion/img/89442.jpg" />
     <entry file="file://$PROJECT_DIR$/accordion/img/89443.jpg" />
     <entry file="file://D:/日常代码/sidebar-transition/js/btn-click.js">
@@ -723,16 +694,27 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/calculate/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="4" column="23" lean-forward="false" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
+        <state relative-caret-position="780">
+          <caret line="19" column="17" lean-forward="false" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="17" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="128">
+            <caret line="16" column="35" lean-forward="false" selection-start-line="16" selection-start-column="35" selection-end-line="16" selection-end-column="35" />
+            <folding />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/calculate/calculate.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="39">
-          <caret line="1" column="45" lean-forward="false" selection-start-line="1" selection-start-column="45" selection-end-line="1" selection-end-column="45" />
+        <state relative-caret-position="234">
+          <caret line="12" column="28" lean-forward="false" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="28" />
           <folding />
         </state>
       </provider>
