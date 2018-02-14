@@ -63,6 +63,9 @@ a {
   color: #fff;
   font-size: 25px;
   box-shadow: 1px 2px 25px rgba(0, 0, 0, 0.3);
+  opacity: 0;
+  transition: all 1.2s cubic-bezier(0.6, 0.17, 0.09, 1.39);
+  transition-delay: 0.5s;
 }
 #wrap1:hover #pre::before {
   transform: rotateZ(-0.46364761rad);
