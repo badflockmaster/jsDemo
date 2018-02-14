@@ -1,0 +1,51 @@
+html,
+body {
+  width: 100%;
+}
+body {
+  margin: 0;
+  background: #199475;
+}
+div,
+ul {
+  box-sizing: border-box;
+}
+ul {
+  list-style: none;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+  color: #fff;
+}
+#choose {
+  width: 700px;
+  height: 300px;
+  outline: 3px solid #c7ceb2;
+  color: #c7ceb2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  margin: auto;
+  box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.5);
+}
+#wrap {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  cursor: pointer;
+}
+#wrap li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  height: 40px;
+  border-radius: 10000px;
+  background: #0b6e48;
+}

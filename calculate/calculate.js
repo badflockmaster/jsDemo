@@ -64,6 +64,8 @@ window.onload = function () {
     keys[i].onclick = keyClick;
   }
 
+  // add key event
+
   function keyClick() {
     var value = this.innerText;
     if ((first.innerText.length + 1) % 13) {
