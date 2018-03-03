@@ -1,0 +1,45 @@
+html, body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+}
+
+div, ul {
+  box-sizing: border-box;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+button {
+  padding: 0;
+  margin: 0;
+  font-size: 100%;
+  outline: none;
+  border: none;
+}
+
+.self-center(@w: 200px, @h: 80px) {
+  width: @w;
+  height: @h;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+}
+
+.box-shadow() {
+  box-shadow: 6px 8px 20px rgba(0, 0, 0, 0.2), -2px -3px 21px rgba(0, 0, 0, 0.2);
+}

@@ -1,0 +1,68 @@
+html,
+body {
+  height: 100%;
+}
+body {
+  margin: 0;
+}
+div,
+ul {
+  box-sizing: border-box;
+}
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+a {
+  text-decoration: none;
+  color: #fff;
+}
+button {
+  padding: 0;
+  margin: 0;
+  font-size: 100%;
+  outline: none;
+  border: none;
+}
+.gradient {
+  width: 300px;
+  height: 50px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  box-shadow: 6px 8px 20px rgba(0, 0, 0, 0.2), -2px -3px 21px rgba(0, 0, 0, 0.2);
+  border-radius: 300px;
+  color: #fff;
+  outline: none;
+  border: none;
+  background: #f6174e;
+  cursor: pointer;
+  overflow: hidden;
+  transition: transform .2s ease;
+  transform: scale3d(1, 1, 1);
+}
+.gradient::before {
+  --size: 0;
+  content: "";
+  position: absolute;
+  left: var(--x);
+  top: var(--y);
+  width: var(--size);
+  height: var(--size);
+  background: radial-gradient(circle closest-side, #4405f7, transparent);
+  transform: translate(-50%, -50%);
+  transition: width .2s ease, height .2s ease;
+}
+.gradient:hover::before {
+  --size: 400px;
+}
+.gradient:hover {
+  transform: scale3d(1.06, 1.06, 1.06);
+}
+.gradient span {
+  position: relative;
+}

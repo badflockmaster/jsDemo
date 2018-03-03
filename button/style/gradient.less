@@ -1,0 +1,36 @@
+@import "../../base";
+
+.gradient {
+  .self-center(300px, 50px);
+  .box-shadow;
+  border-radius: 300px;
+  color: #fff;
+  outline: none; // 去除button点击时，出现的蓝色外框
+  border: none; // 去除button默认的边框
+  background: #f6174e;
+  cursor: pointer;
+  overflow: hidden;
+  transition: transform .2s ease;
+  transform: scale3d(1, 1, 1);
+  &::before {
+    --size: 0;
+    content: "";
+    position: absolute;
+    left: var(--x);
+    top: var(--y);
+    width: var(--size);
+    height: var(--size);
+    background: radial-gradient(circle closest-side, #4405f7, transparent);
+    transform: translate(-50%, -50%);
+    transition: width .2s ease, height .2s ease;
+  }
+  &:hover::before {
+    --size: 400px;
+  }
+  &:hover {
+    transform: scale3d(1.06, 1.06, 1.06);
+  }
+  span {
+    position: relative;
+  }
+}
