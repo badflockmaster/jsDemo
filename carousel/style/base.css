@@ -45,8 +45,20 @@ a {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 100px;
-  height: 40px;
-  border-radius: 10000px;
-  background: #0b6e48;
+  width: 80px;
+  height: 30px;
+  border-radius: 10px;
+  background-image: linear-gradient(to right, #4facfe 0%, #00f2fe 100%);
+  animation: pulse 2s infinite;
+}
+@keyframes pulse {
+  from {
+    transform: scale3d(1, 1, 1);
+  }
+  50% {
+    transform: scale3d(1.05, 1.05, 1.05);
+  }
+  to {
+    transform: scale3d(1, 1, 1);
+  }
 }
