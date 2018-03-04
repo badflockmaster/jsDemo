@@ -34,7 +34,7 @@ button {
   right: 0;
   bottom: 0;
   margin: auto;
-  box-shadow: 6px 8px 20px rgba(0, 0, 0, 0.2), -2px -3px 21px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
   border-radius: 300px;
   color: #fff;
   outline: none;
