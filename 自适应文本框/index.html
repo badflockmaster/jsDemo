@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>自适应文本输入框</title>
+</head>
+<style>
+  h3 {
+    text-align: center;
+    font-weight: normal;
+  }
+
+  .adjust-textarea-container {
+    width: 700px;
+    margin: 0 auto;
+  }
+
+  .adjust-textarea-container textarea {
+    width: 100%;
+    line-height: 1.5;
+    font-size: 16px;
+    padding: 2px 3px;
+    border: 1px solid rgba(168, 172, 166);
+    transition: border-color .3s ease;
+  }
+
+  .adjust-textarea-container textarea:focus {
+    border-color: rgb(166, 219, 226);
+  }
+</style>
+
+<body>
+  <h3>自适应文本输入框</h3>
+  <div class="adjust-textarea-container">
+    <textarea></textarea>
+  </div>
+</body>
+<script src="./main.js"></script>
+
+</html>
